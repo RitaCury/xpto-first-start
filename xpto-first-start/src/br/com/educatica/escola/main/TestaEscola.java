@@ -7,6 +7,7 @@ public class TestaEscola {
 	public static void main(String[] args) {
 		Escola escola = new Escola();
 		escola.setNome("XPTO");
+		System.out.println(escola.getNome());
 	}
 
 }
